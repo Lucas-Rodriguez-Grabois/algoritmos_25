@@ -35,6 +35,5 @@ def listar_superheroes(lista, indice=0):
     print(lista[indice])
     listar_superheroes(lista, indice + 1)
 
-# Probar las funciones
 buscar_capitan_america(superheroes_lista)
 listar_superheroes(superheroes_lista)
