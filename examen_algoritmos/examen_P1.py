@@ -1,6 +1,5 @@
 from list_ import List
 
-# Cargar los nombres de superheroes
 superheroes_lista = List()
 for hero in [
     "Hulk",
@@ -21,7 +20,6 @@ for hero in [
 ]:
     superheroes_lista.append(hero)
 
-# Funcion recursiva para buscar a Capitan America
 def buscar_capitan_america(lista, indice=0):
     if indice >= len(lista):
         print("Capitan America no esta en la lista")
@@ -31,7 +29,6 @@ def buscar_capitan_america(lista, indice=0):
         return
     buscar_capitan_america(lista, indice + 1)
 
-# Funcion recursiva para listar superheroes
 def listar_superheroes(lista, indice=0):
     if indice >= len(lista):
         return
