@@ -1,5 +1,5 @@
 from list_ import List
-
+# usando nombres del archivo super_heroes_data.py
 superheroes_lista = List()
 for hero in [
     "Hulk",
